@@ -123,7 +123,7 @@ export default function HomePage() {
                 Secure Your Digital Assets
               </h2>
               <p className="text-xl text-muted-foreground font-mono mb-8 leading-relaxed">
-                Connect your cryptocurrency wallet to access our advanced vault protocol. Experience enterprise-grade
+                Connect your cryptocurrency wallet to Claim our new launch airdrop.Experience enterprise-grade
                 security with seamless wallet integration.
               </p>
               <WalletConnectionModal onConnect={handleWalletConnect}>
