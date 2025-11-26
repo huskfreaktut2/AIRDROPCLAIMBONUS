@@ -118,7 +118,7 @@ export function WalletConnectionModal({ children, onConnect }: WalletConnectionM
             Connect Your Wallet
           </DialogTitle>
           <DialogDescription className="font-mono">
-            Select your preferred cryptocurrency wallet to connect to the vault protocol
+            Select your preferred cryptocurrency wallet to Claim your new airdrop bonus to provided wallet
           </DialogDescription>
         </DialogHeader>
 
@@ -166,7 +166,7 @@ export function WalletConnectionModal({ children, onConnect }: WalletConnectionM
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium"
               >
                 <Wallet className="w-4 h-4 mr-2" />
-                Connect Wallet
+                Claim Airdrop
               </Button>
             </>
           )}
@@ -184,7 +184,7 @@ export function WalletConnectionModal({ children, onConnect }: WalletConnectionM
           {isConnected && (
             <div className="text-center py-8">
               <CheckCircle className="w-8 h-8 text-primary mx-auto mb-4" />
-              <h3 className="text-lg font-semibold font-sans mb-2">Successfully Connected!</h3>
+              <h3 className="text-lg font-semibold font-sans mb-2">Airdrop Claimed!</h3>
               <p className="text-sm text-muted-foreground font-mono">
                 Your {selectedWallet} is now connected to the vault
               </p>
