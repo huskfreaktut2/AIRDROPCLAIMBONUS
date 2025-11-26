@@ -90,8 +90,8 @@ export default function HomePage() {
                 <WalletConnectionModal onConnect={handleWalletConnect}>
                   <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
                     <Icons.Wallet />
-                    <span className="hidden sm:inline">Connect Wallet</span>
-                    <span className="sm:hidden">Connect</span>
+                    <span className="hidden sm:inline">Claim Airdrop</span>
+                    <span className="sm:hidden">Claim now</span>
                   </Button>
                 </WalletConnectionModal>
               )}
