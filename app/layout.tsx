@@ -17,7 +17,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Blockchain Vault Protocol",
+  title: "Claim new airdrop bonus",
   description: "Secure cryptocurrency vault platform for wallet management",
   generator: "redwhalesdev",
 }
